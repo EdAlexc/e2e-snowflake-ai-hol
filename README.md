@@ -45,7 +45,7 @@ Open a browser window and enter the URL of your Snowflake 30-day trial environme
 
 1. In the left navigation, select **Projects » Workspaces**.
 2. Select **+ Add new**, select **SQL File**, and name it to  your liking.
-3. Paste in the following statements and select **Run all** or *Ctrl + Shift + Enter*.
+3. Paste in the following statements in the new right pane representing the newly created sql file. Select **Run all** or *Ctrl + Shift + Enter*.  
     ```sql
     SET current_user_name = CURRENT_USER();
     
@@ -82,6 +82,7 @@ Open a browser window and enter the URL of your Snowflake 30-day trial environme
     ```
 
 #### Configure Git API Integration and clone this GitHub repo
+1. Using the same sql file created in the last step, execute the following statements. To execute just a block of statements and not the entire file, select the statements to run and click **Run**.
 ```sql
 USE ROLE ACCOUNTADMIN;
 
