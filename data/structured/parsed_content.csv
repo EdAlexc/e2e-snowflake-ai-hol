@@ -1,12 +1,5 @@
-RELATIVE_PATH,FILE_URL,FILE_OBJECT,CONTENT
-data/unstructured/finance/Expense_Policy_2025.pdf,https://raw.githubusercontent.com/evolvconsulting/snowflake-ai-demo/refs/heads/main/data/unstructured/finance/Expense_Policy_2025.pdf,"{
-  ""CONTENT_TYPE"": ""application/pdf"",
-  ""ETAG"": ""62d941d37966ccf99591c37c606e815d"",
-  ""LAST_MODIFIED"": ""Fri, 21 Nov 2025 04:26:39 GMT"",
-  ""RELATIVE_PATH"": ""data/unstructured/finance/Expense_Policy_2025.pdf"",
-  ""SIZE"": 134389,
-  ""STAGE"": ""@EVOLV_E2E_SNOWFLAKE_AI_HOL.EDW.INTERNAL_DATA_STAGE""
-}","# Expense Policy 2025 
+"RELATIVE_PATH","FILE_URL","CONTENT"
+"data/unstructured/finance/Expense_Policy_2025.pdf","https://raw.githubusercontent.com/evolvconsulting/e2e-snowflake-ai-hol/refs/heads/main/data/unstructured/finance/Expense_Policy_2025.pdf","# Expense Policy 2025 
 
 ## Corporate Expense Policy 2025
 
@@ -296,14 +289,7 @@ Next Review: December 2025
 Questions: Contact finance-policy@company.com
 Document Classification: Internal Use
 Version History: Available in corporate policy management system"
-data/unstructured/finance/Q4_2024_Financial_Report.pdf,https://raw.githubusercontent.com/evolvconsulting/snowflake-ai-demo/refs/heads/main/data/unstructured/finance/Q4_2024_Financial_Report.pdf,"{
-  ""CONTENT_TYPE"": ""application/pdf"",
-  ""ETAG"": ""2847e4018ec2e7ac8765e8f668d41653"",
-  ""LAST_MODIFIED"": ""Fri, 21 Nov 2025 04:26:39 GMT"",
-  ""RELATIVE_PATH"": ""data/unstructured/finance/Q4_2024_Financial_Report.pdf"",
-  ""SIZE"": 113108,
-  ""STAGE"": ""@EVOLV_E2E_SNOWFLAKE_AI_HOL.EDW.INTERNAL_DATA_STAGE""
-}","# Q4 2024 Financial Report 
+"data/unstructured/finance/Q4_2024_Financial_Report.pdf","https://raw.githubusercontent.com/evolvconsulting/e2e-snowflake-ai-hol/refs/heads/main/data/unstructured/finance/Q4_2024_Financial_Report.pdf","# Q4 2024 Financial Report 
 
 ## Q4 2024 Financial Report
 
@@ -533,14 +519,7 @@ Next Review: April 15, 2025
 Document Classification: Confidential
 
 Distribution: C-Level Executives, Board Members, Department Heads"
-data/unstructured/finance/Q4_2024_Financial_Results.pdf,https://raw.githubusercontent.com/evolvconsulting/snowflake-ai-demo/refs/heads/main/data/unstructured/finance/Q4_2024_Financial_Results.pdf,"{
-  ""CONTENT_TYPE"": ""application/pdf"",
-  ""ETAG"": ""eac5ca9a1c308a9b4e4294c5c85074de"",
-  ""LAST_MODIFIED"": ""Fri, 21 Nov 2025 04:26:39 GMT"",
-  ""RELATIVE_PATH"": ""data/unstructured/finance/Q4_2024_Financial_Results.pdf"",
-  ""SIZE"": 423730,
-  ""STAGE"": ""@EVOLV_E2E_SNOWFLAKE_AI_HOL.EDW.INTERNAL_DATA_STAGE""
-}","# Q4 2024 Financial Results 
+"data/unstructured/finance/Q4_2024_Financial_Results.pdf","https://raw.githubusercontent.com/evolvconsulting/e2e-snowflake-ai-hol/refs/heads/main/data/unstructured/finance/Q4_2024_Financial_Results.pdf","# Q4 2024 Financial Results 
 
 Finance Department Presentation
 January 2025
@@ -586,14 +565,7 @@ January 2025
 - Revenue increased across all business units.
 - Operating income and net profit margin improved.
 - Managed vendor spend effectively throughout the quarter."
-data/unstructured/finance/Vendor_Management_Policy.pdf,https://raw.githubusercontent.com/evolvconsulting/snowflake-ai-demo/refs/heads/main/data/unstructured/finance/Vendor_Management_Policy.pdf,"{
-  ""CONTENT_TYPE"": ""application/pdf"",
-  ""ETAG"": ""05afc19139ca56afed3e084958da1078"",
-  ""LAST_MODIFIED"": ""Fri, 21 Nov 2025 04:26:39 GMT"",
-  ""RELATIVE_PATH"": ""data/unstructured/finance/Vendor_Management_Policy.pdf"",
-  ""SIZE"": 38602,
-  ""STAGE"": ""@EVOLV_E2E_SNOWFLAKE_AI_HOL.EDW.INTERNAL_DATA_STAGE""
-}","# Vendor Management Policy 
+"data/unstructured/finance/Vendor_Management_Policy.pdf","https://raw.githubusercontent.com/evolvconsulting/e2e-snowflake-ai-hol/refs/heads/main/data/unstructured/finance/Vendor_Management_Policy.pdf","# Vendor Management Policy 
 
 ## Vendor Management Policy 2025
 
@@ -632,14 +604,7 @@ This policy establishes guidelines for vendor selection, management, and evaluat
 - Cost management: Within 5\% of budget
 - Quality scores: $4.0+$ out of 5.0
 - Response time: $95 \%$ within agreed timeframes"
-data/unstructured/finance/vendor_contracts/Global_Logistics_Partners_Contract.pdf,https://raw.githubusercontent.com/evolvconsulting/snowflake-ai-demo/refs/heads/main/data/unstructured/finance/vendor_contracts/Global_Logistics_Partners_Contract.pdf,"{
-  ""CONTENT_TYPE"": ""application/pdf"",
-  ""ETAG"": ""36eefa26e2210f717de8a3ef02dcdbe5"",
-  ""LAST_MODIFIED"": ""Fri, 21 Nov 2025 04:26:39 GMT"",
-  ""RELATIVE_PATH"": ""data/unstructured/finance/vendor_contracts/Global_Logistics_Partners_Contract.pdf"",
-  ""SIZE"": 60615,
-  ""STAGE"": ""@EVOLV_E2E_SNOWFLAKE_AI_HOL.EDW.INTERNAL_DATA_STAGE""
-}","# SERVICE AGREEMENT - GLOBAL LOGISTICS PARTNERS 
+"data/unstructured/finance/vendor_contracts/Global_Logistics_Partners_Contract.pdf","https://raw.githubusercontent.com/evolvconsulting/e2e-snowflake-ai-hol/refs/heads/main/data/unstructured/finance/vendor_contracts/Global_Logistics_Partners_Contract.pdf","# SERVICE AGREEMENT - GLOBAL LOGISTICS PARTNERS 
 
 ## Contract Information
 
@@ -698,14 +663,7 @@ Renewal notice must be provided 90 days prior to contract expiration.
 | Name: John Smith, CFO | Name: Michael Chen, Account Manager |
 | Date: July 27, 2025 | Date: July 27, 2025 |
 |  |  |"
-data/unstructured/finance/vendor_contracts/Marketing_Dynamics_Inc_Contract.pdf,https://raw.githubusercontent.com/evolvconsulting/snowflake-ai-demo/refs/heads/main/data/unstructured/finance/vendor_contracts/Marketing_Dynamics_Inc_Contract.pdf,"{
-  ""CONTENT_TYPE"": ""application/pdf"",
-  ""ETAG"": ""3031913ac429ff14e4cc9053be159809"",
-  ""LAST_MODIFIED"": ""Fri, 21 Nov 2025 04:26:39 GMT"",
-  ""RELATIVE_PATH"": ""data/unstructured/finance/vendor_contracts/Marketing_Dynamics_Inc_Contract.pdf"",
-  ""SIZE"": 60422,
-  ""STAGE"": ""@EVOLV_E2E_SNOWFLAKE_AI_HOL.EDW.INTERNAL_DATA_STAGE""
-}","# SERVICE AGREEMENT - MARKETING DYNAMICS INC 
+"data/unstructured/finance/vendor_contracts/Marketing_Dynamics_Inc_Contract.pdf","https://raw.githubusercontent.com/evolvconsulting/e2e-snowflake-ai-hol/refs/heads/main/data/unstructured/finance/vendor_contracts/Marketing_Dynamics_Inc_Contract.pdf","# SERVICE AGREEMENT - MARKETING DYNAMICS INC 
 
 ## Contract Information
 
@@ -763,14 +721,7 @@ Renewal notice must be provided 90 days prior to contract expiration.
 | Name: John Smith, CFO | Name: Jessica Rodriguez, Creative Director |
 | Date: July 27, 2025 | Date: July 27, 2025 |
 |  |  |"
-data/unstructured/finance/vendor_contracts/Office_Solutions_Pro_Contract.pdf,https://raw.githubusercontent.com/evolvconsulting/snowflake-ai-demo/refs/heads/main/data/unstructured/finance/vendor_contracts/Office_Solutions_Pro_Contract.pdf,"{
-  ""CONTENT_TYPE"": ""application/pdf"",
-  ""ETAG"": ""aff5ce9e5eca905264b19c3e19a15f33"",
-  ""LAST_MODIFIED"": ""Fri, 21 Nov 2025 04:26:39 GMT"",
-  ""RELATIVE_PATH"": ""data/unstructured/finance/vendor_contracts/Office_Solutions_Pro_Contract.pdf"",
-  ""SIZE"": 60903,
-  ""STAGE"": ""@EVOLV_E2E_SNOWFLAKE_AI_HOL.EDW.INTERNAL_DATA_STAGE""
-}","# SERVICE AGREEMENT - OFFICE SOLUTIONS PRO 
+"data/unstructured/finance/vendor_contracts/Office_Solutions_Pro_Contract.pdf","https://raw.githubusercontent.com/evolvconsulting/e2e-snowflake-ai-hol/refs/heads/main/data/unstructured/finance/vendor_contracts/Office_Solutions_Pro_Contract.pdf","# SERVICE AGREEMENT - OFFICE SOLUTIONS PRO 
 
 ## Contract Information
 
@@ -825,14 +776,7 @@ Pricing adjustments may apply based on market conditions and service modificatio
 | Signature: | Signature: |
 | Name: John Smith, CFO | Name: Amanda Wilson, Sales <br> Representative |
 | Date: July 27, 2025 | Date: July 27, 2025 |"
-data/unstructured/finance/vendor_contracts/Professional_Services_LLC_Contract.pdf,https://raw.githubusercontent.com/evolvconsulting/snowflake-ai-demo/refs/heads/main/data/unstructured/finance/vendor_contracts/Professional_Services_LLC_Contract.pdf,"{
-  ""CONTENT_TYPE"": ""application/pdf"",
-  ""ETAG"": ""d396baa40f056dc5c6b239ee621456ab"",
-  ""LAST_MODIFIED"": ""Fri, 21 Nov 2025 04:26:39 GMT"",
-  ""RELATIVE_PATH"": ""data/unstructured/finance/vendor_contracts/Professional_Services_LLC_Contract.pdf"",
-  ""SIZE"": 60551,
-  ""STAGE"": ""@EVOLV_E2E_SNOWFLAKE_AI_HOL.EDW.INTERNAL_DATA_STAGE""
-}","# SERVICE AGREEMENT - PROFESSIONAL SERVICES LLC 
+"data/unstructured/finance/vendor_contracts/Professional_Services_LLC_Contract.pdf","https://raw.githubusercontent.com/evolvconsulting/e2e-snowflake-ai-hol/refs/heads/main/data/unstructured/finance/vendor_contracts/Professional_Services_LLC_Contract.pdf","# SERVICE AGREEMENT - PROFESSIONAL SERVICES LLC 
 
 ## Contract Information
 
@@ -887,14 +831,7 @@ Pricing adjustments may apply based on market conditions and service modificatio
 | Signature: | Signature: |
 | Name: John Smith, CFO | Name: David Thompson, Principal <br> Consultant |
 | Date: July 27, 2025 | Date: July 27, 2025 |"
-data/unstructured/finance/vendor_contracts/TechCorp_Solutions_Contract.pdf,https://raw.githubusercontent.com/evolvconsulting/snowflake-ai-demo/refs/heads/main/data/unstructured/finance/vendor_contracts/TechCorp_Solutions_Contract.pdf,"{
-  ""CONTENT_TYPE"": ""application/pdf"",
-  ""ETAG"": ""480128d69c145f38d4244f435da64a0e"",
-  ""LAST_MODIFIED"": ""Fri, 21 Nov 2025 04:26:39 GMT"",
-  ""RELATIVE_PATH"": ""data/unstructured/finance/vendor_contracts/TechCorp_Solutions_Contract.pdf"",
-  ""SIZE"": 60381,
-  ""STAGE"": ""@EVOLV_E2E_SNOWFLAKE_AI_HOL.EDW.INTERNAL_DATA_STAGE""
-}","# SERVICE AGREEMENT - TECHCORP SOLUTIONS 
+"data/unstructured/finance/vendor_contracts/TechCorp_Solutions_Contract.pdf","https://raw.githubusercontent.com/evolvconsulting/e2e-snowflake-ai-hol/refs/heads/main/data/unstructured/finance/vendor_contracts/TechCorp_Solutions_Contract.pdf","# SERVICE AGREEMENT - TECHCORP SOLUTIONS 
 
 ## Contract Information
 
@@ -952,14 +889,7 @@ Renewal notice must be provided 90 days prior to contract expiration.
 | Name: John Smith, CFO | Name: Sarah Johnson, VP Sales |
 | Date: July 27, 2025 | Date: July 27, 2025 |
 |  |  |"
-data/unstructured/finance/vendor_contracts/amendments/Marketing_Dynamics_Inc_Amendment_Amendment 1.pdf,https://raw.githubusercontent.com/evolvconsulting/snowflake-ai-demo/refs/heads/main/data/unstructured/finance/vendor_contracts/amendments/Marketing_Dynamics_Inc_Amendment_Amendment 1.pdf,"{
-  ""CONTENT_TYPE"": ""application/pdf"",
-  ""ETAG"": ""7310de61b6f67f702c587190fd3b8488"",
-  ""LAST_MODIFIED"": ""Fri, 21 Nov 2025 04:26:39 GMT"",
-  ""RELATIVE_PATH"": ""data/unstructured/finance/vendor_contracts/amendments/Marketing_Dynamics_Inc_Amendment_Amendment 1.pdf"",
-  ""SIZE"": 42629,
-  ""STAGE"": ""@EVOLV_E2E_SNOWFLAKE_AI_HOL.EDW.INTERNAL_DATA_STAGE""
-}","# CONTRACT AMENDMENT 
+"data/unstructured/finance/vendor_contracts/amendments/Marketing_Dynamics_Inc_Amendment_Amendment 1.pdf","https://raw.githubusercontent.com/evolvconsulting/e2e-snowflake-ai-hol/refs/heads/main/data/unstructured/finance/vendor_contracts/amendments/Marketing_Dynamics_Inc_Amendment_Amendment 1.pdf","# CONTRACT AMENDMENT 
 
 ## Marketing Dynamics Inc - Amendment \#1
 
@@ -984,14 +914,7 @@ data/unstructured/finance/vendor_contracts/amendments/Marketing_Dynamics_Inc_Ame
 
 This amendment has been reviewed and approved by both parties. All other terms and conditions
 of the original contract remain in full force and effect unless specifically modified by this amendment."
-data/unstructured/finance/vendor_contracts/amendments/TechCorp_Solutions_Amendment_Amendment 1.pdf,https://raw.githubusercontent.com/evolvconsulting/snowflake-ai-demo/refs/heads/main/data/unstructured/finance/vendor_contracts/amendments/TechCorp_Solutions_Amendment_Amendment 1.pdf,"{
-  ""CONTENT_TYPE"": ""application/pdf"",
-  ""ETAG"": ""a866744a20816549fc6ccfea2ffbd13b"",
-  ""LAST_MODIFIED"": ""Fri, 21 Nov 2025 04:26:39 GMT"",
-  ""RELATIVE_PATH"": ""data/unstructured/finance/vendor_contracts/amendments/TechCorp_Solutions_Amendment_Amendment 1.pdf"",
-  ""SIZE"": 42395,
-  ""STAGE"": ""@EVOLV_E2E_SNOWFLAKE_AI_HOL.EDW.INTERNAL_DATA_STAGE""
-}","# CONTRACT AMENDMENT 
+"data/unstructured/finance/vendor_contracts/amendments/TechCorp_Solutions_Amendment_Amendment 1.pdf","https://raw.githubusercontent.com/evolvconsulting/e2e-snowflake-ai-hol/refs/heads/main/data/unstructured/finance/vendor_contracts/amendments/TechCorp_Solutions_Amendment_Amendment 1.pdf","# CONTRACT AMENDMENT 
 
 ## TechCorp Solutions - Amendment \#1
 
@@ -1016,14 +939,7 @@ data/unstructured/finance/vendor_contracts/amendments/TechCorp_Solutions_Amendme
 
 This amendment has been reviewed and approved by both parties. All other terms and conditions
 of the original contract remain in full force and effect unless specifically modified by this amendment."
-data/unstructured/hr/Employee_Handbook_2025.pdf,https://raw.githubusercontent.com/evolvconsulting/snowflake-ai-demo/refs/heads/main/data/unstructured/hr/Employee_Handbook_2025.pdf,"{
-  ""CONTENT_TYPE"": ""application/pdf"",
-  ""ETAG"": ""f2785d66a15e0875874fd129c1f98918"",
-  ""LAST_MODIFIED"": ""Fri, 21 Nov 2025 04:26:39 GMT"",
-  ""RELATIVE_PATH"": ""data/unstructured/hr/Employee_Handbook_2025.pdf"",
-  ""SIZE"": 185816,
-  ""STAGE"": ""@EVOLV_E2E_SNOWFLAKE_AI_HOL.EDW.INTERNAL_DATA_STAGE""
-}","# Employee Handbook 2025 
+"data/unstructured/hr/Employee_Handbook_2025.pdf","https://raw.githubusercontent.com/evolvconsulting/e2e-snowflake-ai-hol/refs/heads/main/data/unstructured/hr/Employee_Handbook_2025.pdf","# Employee Handbook 2025 
 
 ## Employee Handbook 2025
 
@@ -1430,14 +1346,7 @@ Disclaimer: This handbook is not a contract of employment. The company reserves 
 
 Effective Date: January 1, 2025
 Next Review: December 2025"
-data/unstructured/hr/HR_Department_Overview_2025.pdf,https://raw.githubusercontent.com/evolvconsulting/snowflake-ai-demo/refs/heads/main/data/unstructured/hr/HR_Department_Overview_2025.pdf,"{
-  ""CONTENT_TYPE"": ""application/pdf"",
-  ""ETAG"": ""adf1715310ed628b24e0c54627ca6d3f"",
-  ""LAST_MODIFIED"": ""Fri, 21 Nov 2025 04:26:39 GMT"",
-  ""RELATIVE_PATH"": ""data/unstructured/hr/HR_Department_Overview_2025.pdf"",
-  ""SIZE"": 1232892,
-  ""STAGE"": ""@EVOLV_E2E_SNOWFLAKE_AI_HOL.EDW.INTERNAL_DATA_STAGE""
-}","# HR Department Overview 
+"data/unstructured/hr/HR_Department_Overview_2025.pdf","https://raw.githubusercontent.com/evolvconsulting/e2e-snowflake-ai-hol/refs/heads/main/data/unstructured/hr/HR_Department_Overview_2025.pdf","# HR Department Overview 
 
 2025 Employee Programs \& Benefits
 Human Resources
@@ -1495,14 +1404,7 @@ Human Resources
 - High participation in benefits and development programs.
 - Strong employee satisfaction and retention rates.
 - Company supports work-life balance initiatives."
-data/unstructured/hr/Performance_Review_Guidelines.pdf,https://raw.githubusercontent.com/evolvconsulting/snowflake-ai-demo/refs/heads/main/data/unstructured/hr/Performance_Review_Guidelines.pdf,"{
-  ""CONTENT_TYPE"": ""application/pdf"",
-  ""ETAG"": ""e3367afd9927938a464626b3989ce490"",
-  ""LAST_MODIFIED"": ""Fri, 21 Nov 2025 04:26:39 GMT"",
-  ""RELATIVE_PATH"": ""data/unstructured/hr/Performance_Review_Guidelines.pdf"",
-  ""SIZE"": 48338,
-  ""STAGE"": ""@EVOLV_E2E_SNOWFLAKE_AI_HOL.EDW.INTERNAL_DATA_STAGE""
-}","# Performance Review Guidelines 
+"data/unstructured/hr/Performance_Review_Guidelines.pdf","https://raw.githubusercontent.com/evolvconsulting/e2e-snowflake-ai-hol/refs/heads/main/data/unstructured/hr/Performance_Review_Guidelines.pdf","# Performance Review Guidelines 
 
 ## Performance Review Guidelines 2025
 
@@ -1563,14 +1465,7 @@ Annual performance reviews are conducted to evaluate employee performance, set g
 - Mentorship program participation
 - Career advancement discussions
 - Skill gap analysis and improvement plans"
-data/unstructured/marketing/2025_Marketing_Strategy.pdf,https://raw.githubusercontent.com/evolvconsulting/snowflake-ai-demo/refs/heads/main/data/unstructured/marketing/2025_Marketing_Strategy.pdf,"{
-  ""CONTENT_TYPE"": ""application/pdf"",
-  ""ETAG"": ""636b4b536bd87ba1d44fe9ac713dc2a8"",
-  ""LAST_MODIFIED"": ""Fri, 21 Nov 2025 04:26:39 GMT"",
-  ""RELATIVE_PATH"": ""data/unstructured/marketing/2025_Marketing_Strategy.pdf"",
-  ""SIZE"": 206156,
-  ""STAGE"": ""@EVOLV_E2E_SNOWFLAKE_AI_HOL.EDW.INTERNAL_DATA_STAGE""
-}","# 2025 Marketing Strategy 
+"data/unstructured/marketing/2025_Marketing_Strategy.pdf","https://raw.githubusercontent.com/evolvconsulting/e2e-snowflake-ai-hol/refs/heads/main/data/unstructured/marketing/2025_Marketing_Strategy.pdf","# 2025 Marketing Strategy 
 
 ## 2025 Marketing Strategy \& Campaign Plan
 
@@ -2027,14 +1922,7 @@ Next Review: April 2025
 Distribution: Marketing team, Sales leadership, Executive team
 Classification: Internal Use Only
 Version Control: Marketing shared drive and CRM system"
-data/unstructured/marketing/Campaign_Performance_Report.pdf,https://raw.githubusercontent.com/evolvconsulting/snowflake-ai-demo/refs/heads/main/data/unstructured/marketing/Campaign_Performance_Report.pdf,"{
-  ""CONTENT_TYPE"": ""application/pdf"",
-  ""ETAG"": ""db03aee8294f5110235cf23e05dc2f75"",
-  ""LAST_MODIFIED"": ""Fri, 21 Nov 2025 04:26:39 GMT"",
-  ""RELATIVE_PATH"": ""data/unstructured/marketing/Campaign_Performance_Report.pdf"",
-  ""SIZE"": 45727,
-  ""STAGE"": ""@EVOLV_E2E_SNOWFLAKE_AI_HOL.EDW.INTERNAL_DATA_STAGE""
-}","# Campaign Performance Report 
+"data/unstructured/marketing/Campaign_Performance_Report.pdf","https://raw.githubusercontent.com/evolvconsulting/e2e-snowflake-ai-hol/refs/heads/main/data/unstructured/marketing/Campaign_Performance_Report.pdf","# Campaign Performance Report 
 
 ## Q4 2024 Campaign Performance Report
 
@@ -2084,14 +1972,7 @@ RSA Conference 2024
 - **Qualified Leads**: 125
 - **Pipeline Generated**: \$1.8M
 - **Cost per Lead**: \$680"
-data/unstructured/marketing/Marketing_Strategy_2025.pdf,https://raw.githubusercontent.com/evolvconsulting/snowflake-ai-demo/refs/heads/main/data/unstructured/marketing/Marketing_Strategy_2025.pdf,"{
-  ""CONTENT_TYPE"": ""application/pdf"",
-  ""ETAG"": ""e4f115b496bd1acccc3d68e756057da2"",
-  ""LAST_MODIFIED"": ""Fri, 21 Nov 2025 04:26:39 GMT"",
-  ""RELATIVE_PATH"": ""data/unstructured/marketing/Marketing_Strategy_2025.pdf"",
-  ""SIZE"": 292423,
-  ""STAGE"": ""@EVOLV_E2E_SNOWFLAKE_AI_HOL.EDW.INTERNAL_DATA_STAGE""
-}","# 2025 Marketing Strategy 
+"data/unstructured/marketing/Marketing_Strategy_2025.pdf","https://raw.githubusercontent.com/evolvconsulting/e2e-snowflake-ai-hol/refs/heads/main/data/unstructured/marketing/Marketing_Strategy_2025.pdf","# 2025 Marketing Strategy 
 
 Lead Generation \& Brand Building
 Marketing Department
@@ -2124,14 +2005,7 @@ Marketing Department
 - Achieved strong digital marketing ROI
 - Exceeded lead generation and engagement goals
 - Maintained efficient budget utilization"
-data/unstructured/sales/Customer_Success_Stories.pdf,https://raw.githubusercontent.com/evolvconsulting/snowflake-ai-demo/refs/heads/main/data/unstructured/sales/Customer_Success_Stories.pdf,"{
-  ""CONTENT_TYPE"": ""application/pdf"",
-  ""ETAG"": ""0727259b4ee660d2b122b3dbb04d8cb4"",
-  ""LAST_MODIFIED"": ""Fri, 21 Nov 2025 04:26:39 GMT"",
-  ""RELATIVE_PATH"": ""data/unstructured/sales/Customer_Success_Stories.pdf"",
-  ""SIZE"": 43230,
-  ""STAGE"": ""@EVOLV_E2E_SNOWFLAKE_AI_HOL.EDW.INTERNAL_DATA_STAGE""
-}","# Customer Success Stories 
+"data/unstructured/sales/Customer_Success_Stories.pdf","https://raw.githubusercontent.com/evolvconsulting/e2e-snowflake-ai-hol/refs/heads/main/data/unstructured/sales/Customer_Success_Stories.pdf","# Customer Success Stories 
 
 ## Customer Success Stories 2024
 
@@ -2177,14 +2051,7 @@ data/unstructured/sales/Customer_Success_Stories.pdf,https://raw.githubuserconte
 - **Results**: $50 \%$ reduction in reporting time, improved accuracy
 - **Sales Rep**: Michelle Beard
 - **Contract Value**: \$180,000 annually"
-data/unstructured/sales/Sales_Performance_Q4_2024.pdf,https://raw.githubusercontent.com/evolvconsulting/snowflake-ai-demo/refs/heads/main/data/unstructured/sales/Sales_Performance_Q4_2024.pdf,"{
-  ""CONTENT_TYPE"": ""application/pdf"",
-  ""ETAG"": ""c969e9bc72fff98e738f26436e8b7bca"",
-  ""LAST_MODIFIED"": ""Fri, 21 Nov 2025 04:26:39 GMT"",
-  ""RELATIVE_PATH"": ""data/unstructured/sales/Sales_Performance_Q4_2024.pdf"",
-  ""SIZE"": 36974,
-  ""STAGE"": ""@EVOLV_E2E_SNOWFLAKE_AI_HOL.EDW.INTERNAL_DATA_STAGE""
-}","# Sales Performance Review 
+"data/unstructured/sales/Sales_Performance_Q4_2024.pdf","https://raw.githubusercontent.com/evolvconsulting/e2e-snowflake-ai-hol/refs/heads/main/data/unstructured/sales/Sales_Performance_Q4_2024.pdf","# Sales Performance Review 
 
 Q4 2024 Results \& 2025 Strategy<br>Sales Team Meeting
 # Q4 Performance Highlights 
@@ -2208,14 +2075,7 @@ Q4 2024 Results \& 2025 Strategy<br>Sales Team Meeting
 - Regional Bank Corp: \$380K (compliance focus)
 - HealthCare Partners: \$295K (HIPAA solution)
 - Manufacturing Plus: \$234K (automation)"
-data/unstructured/sales/Sales_Playbook_2025.pdf,https://raw.githubusercontent.com/evolvconsulting/snowflake-ai-demo/refs/heads/main/data/unstructured/sales/Sales_Playbook_2025.pdf,"{
-  ""CONTENT_TYPE"": ""application/pdf"",
-  ""ETAG"": ""d116a011222dc7988570d36e7eb713c2"",
-  ""LAST_MODIFIED"": ""Fri, 21 Nov 2025 04:26:39 GMT"",
-  ""RELATIVE_PATH"": ""data/unstructured/sales/Sales_Playbook_2025.pdf"",
-  ""SIZE"": 204275,
-  ""STAGE"": ""@EVOLV_E2E_SNOWFLAKE_AI_HOL.EDW.INTERNAL_DATA_STAGE""
-}","# Sales Playbook 2025 
+"data/unstructured/sales/Sales_Playbook_2025.pdf","https://raw.githubusercontent.com/evolvconsulting/e2e-snowflake-ai-hol/refs/heads/main/data/unstructured/sales/Sales_Playbook_2025.pdf","# Sales Playbook 2025 
 
 ## Sales Playbook 2025
 
