@@ -47,11 +47,11 @@ Open a browser window and enter the URL of your Snowflake 30-day trial environme
 2. Select **+ Add new**, select **SQL File**, and name it to  your liking.
 3. Paste in the following statements in the new right pane representing the newly created sql file. Select **Run all** or *Ctrl + Shift + Enter*.  
     ```sql
-    SET current_user_name = CURRENT_USER();
+    SET current_user_name = CONCAT('"', CURRENT_USER(), '"');
     
     -- Switch to SECURITYADMIN role to create role
     USE ROLE SECURITYADMIN;
-    CREATE OR REPLACE ROLE EVOLV_AI_HOL_ADMIN;
+    CREATE ROLE IF NOT EXISTS EVOLV_AI_HOL_ADMIN;
     
     -- Grant the role to the current user
     GRANT ROLE EVOLV_AI_HOL_ADMIN TO USER IDENTIFIER($current_user_name);
@@ -61,7 +61,7 @@ Open a browser window and enter the URL of your Snowflake 30-day trial environme
     GRANT CREATE DATABASE ON ACCOUNT TO ROLE EVOLV_AI_HOL_ADMIN;
     
     -- Create a dedicated warehouse for the demo with auto-suspend/resume
-    CREATE OR REPLACE WAREHOUSE EVOLV_AI_HOL_WH
+    CREATE WAREHOUSE IF NOT EXISTS EVOLV_AI_HOL_WH
         WITH WAREHOUSE_SIZE = 'XSMALL'
         AUTO_SUSPEND = 300
         AUTO_RESUME = TRUE;
@@ -77,8 +77,9 @@ Open a browser window and enter the URL of your Snowflake 30-day trial environme
     USE ROLE EVOLV_AI_HOL_ADMIN;
     
     -- Create database and schema
-    CREATE OR REPLACE DATABASE EVOLV_E2E_SNOWFLAKE_AI_HOL;
-    CREATE SCHEMA EDW;
+    CREATE DATABASE IF NOT EXISTS EVOLV_E2E_SNOWFLAKE_AI_HOL;
+    USE DATABASE EVOLV_E2E_SNOWFLAKE_AI_HOL;
+    CREATE SCHEMA IF NOT EXISTS EDW;
     ```
 
 #### Configure Git API Integration and clone this GitHub repo
@@ -101,7 +102,7 @@ USE DATABASE EVOLV_E2E_SNOWFLAKE_AI_HOL;
 USE SCHEMA EDW;
 
 -- Create Git repository integration for the public demo repository
-CREATE OR REPLACE GIT REPOSITORY EVOLV_E2E_AI_HOL_REPO
+CREATE GIT REPOSITORY IF NOT EXISTS EVOLV_E2E_AI_HOL_REPO
     API_INTEGRATION = EVOLV_GITHUB_API_INTEGRATION
     ORIGIN = 'https://github.com/evolvconsulting/e2e-snowflake-ai-hol.git';
 
@@ -109,6 +110,8 @@ ALTER GIT REPOSITORY EVOLV_E2E_AI_HOL_REPO FETCH;
 ```
 
 #### Open Notebook
+
+**Option 1:**
 1. Within Snowsight, change your role to the newly created **EVOLV_AI_HOL_ADMIN** role.
 2. In the navigation menu, select **Projects » Notebooks**.
 3. Next to **+ Notebook**, open the drop-down menu and select **Create from repository**.
@@ -123,3 +126,20 @@ ALTER GIT REPOSITORY EVOLV_E2E_AI_HOL_REPO FETCH;
 12. For **Notebook warehouse**, select `EVOLV_AI_HOL_WH`.
 13. Select **Create**
 14. Follow the steps outlined in the notebook to proceed with the remainder of the lab.
+
+**Option 2:**
+1. Execute the following statements:
+```sql
+CREATE NOTEBOOK IF NOT EXISTS PUBLIC."e2e-snowflake-ai-hol"
+    FROM '@EVOLV_E2E_SNOWFLAKE_AI_HOL.EDW.EVOLV_E2E_AI_HOL_REPO/branches/main/'
+    WAREHOUSE = 'EVOLV_AI_HOL_WH'
+    QUERY_WAREHOUSE = 'EVOLV_AI_HOL_WH'
+    RUNTIME_NAME = 'SYSTEM$WAREHOUSE_RUNTIME'
+    RUNTIME_ENVIRONMENT_VERSION = 'wh-runtime-2.0'
+    MAIN_FILE = 'evolv-e2e-snowflake-ai-hol.ipynb';
+
+ALTER NOTEBOOK PUBLIC."e2e-snowflake-ai-hol" ADD LIVE VERSION FROM LAST;
+```
+2. In the left navigation, select **Projects » Notebooks**.
+3. Select the newly created Notebook **e2e-snowflake-ai-hol** to open.
+4. Follow the steps outlined in the notebook to proceed with the remainder of the lab.
