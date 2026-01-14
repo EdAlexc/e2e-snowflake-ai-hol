@@ -143,3 +143,13 @@ ALTER NOTEBOOK PUBLIC."e2e-snowflake-ai-hol" ADD LIVE VERSION FROM LAST;
 2. In the left navigation, select **Projects » Notebooks**.
 3. Select the newly created Notebook **e2e-snowflake-ai-hol** to open.
 4. Follow the steps outlined in the notebook to proceed with the remainder of the lab.
+
+# Getting Started with Cortex Agents and Slack
+
+## Overview
+
+Cortex Agents simplify AI-powered data interactions via a REST API, combining hybrid search and accurate SQL generation. They streamline workflows by managing context retrieval, natural language to SQL conversion, and LLM orchestration. Response quality is enhanced with in-line citations, answer abstention, and multi-message context handling. Developers benefit from a single API call integration, real-time streamed responses, and reduced latency for optimized applications.
+
+## Step-by-Step Guide
+
+For prerequisites, environment setup, step-by-step guide and instructions, please refer to the [QuickStart Guide](https://quickstarts.snowflake.com/guide/integrate_snowflake_cortex_agents_with_slack/index.html).

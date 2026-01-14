@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "../../first-bolt-app/sfguide-integrate-snowflake-cortex-agents-with-slack"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {}
+}
